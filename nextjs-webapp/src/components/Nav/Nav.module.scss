@@ -2,6 +2,12 @@
     background-color: #458FF6;
     color: #fff;
 
+    li {
+        &:hover {
+            color: #1F6EA3;
+        }
+    }
+
     .container {
         padding: 74px 60px 34px;
     }
@@ -13,10 +19,6 @@
             font-size: 35px;
             font-weight: 700;
             line-height: 48px;
-
-            &.active {
-                color: #d9d9d9;
-            }
         }
     }
 
