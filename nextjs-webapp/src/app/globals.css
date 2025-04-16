@@ -28,7 +28,7 @@
 }
 .icon-facebook .path1:before {
   content: "\e900";
-  color: lightgrey;
+  color: aliceblue;
 }
 .icon-facebook .path2:before {
   content: "\e901";
@@ -37,7 +37,7 @@
 }
 .icon-github:before {
   content: "\e902";
-  color: lightgrey
+  color: aliceblue
 }
 .icon-instagram .path1:before {
   content: "\e903";
@@ -135,7 +135,7 @@
 }
 .icon-linkedin .path1:before {
   content: "\e916";
-  color: lightgrey;
+  color: aliceblue;
 }
 .icon-linkedin .path2:before {
   content: "\e917";
@@ -144,7 +144,7 @@
 }
 .icon-twitter:before {
   content: "\e918";
-  color: lightgrey;
+  color: aliceblue;
 }
 .icon-youtube .path1:before {
   content: "\e919";
