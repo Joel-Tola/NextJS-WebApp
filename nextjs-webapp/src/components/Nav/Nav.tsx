@@ -9,6 +9,7 @@ export type NavProps = {
 const Nav: React.FC<NavProps> = ({ }) => {
 	return (
 		<div className={styles.nav}>
+			<span></span>
 			<div className={styles.container}>
 				<div className={styles.menu}>
 					<ul>
@@ -30,7 +31,7 @@ const Nav: React.FC<NavProps> = ({ }) => {
 					<ul>
 						<li>
 							<a href="">
-								<span className={`${styles.icon} icon-facebook`}>
+								<span className={`${styles.icon} icon-facebook2`}>
 									<span className="path1"></span>
 									<span className="path2"></span>
 								</span>
