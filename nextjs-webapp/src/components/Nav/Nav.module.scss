@@ -1,7 +1,8 @@
 .nav {
     background-color: #458FF6;
     color: #fff;
-
+    position: relative;
+    
     li {
         &:hover {
             color: #1F6EA3;
@@ -59,6 +60,23 @@
 
         &:before {
             font-size: 28px;
+        }
+    }
+
+    .close {
+        background-color: #fff;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        &:before {
+            font-size: 1rem;
+            color: #1F1534;
         }
     }
 }
