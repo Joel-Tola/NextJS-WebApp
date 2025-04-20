@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
-import { geistSans, geistMono } from "@/utils/fonts";
+import { mulish } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.className} ${geistMono.className} antialiased`}
+        className={`${mulish.className}`}
       >
         <Nav title="Navigation" />
         {children}

@@ -1,19 +1,70 @@
 .nav {
-    background-color: #458FF6;
-    color: #fff;
     position: relative;
     
     li {
         &:hover {
             color: #1F6EA3;
             cursor: pointer;
+            font-weight: bolder;
         }
     }
 
-    .container {
-        padding: 74px 60px 34px;
+    .navMobile {
+        background-color: #458FF6;
+        color: #fff;
+        position: absolute;
+        width: 100%;
+
+        .containerMobile {
+            padding: 74px 60px 34px;
+        }
     }
 
+    .navDesktop {
+        .menuDesktop {
+            font-size: 1rem;
+            display: none;
+
+            @media (min-width: 768px) {
+                display: block;
+
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 2.5rem;
+                }
+
+                li {
+                    height: 41px;
+                    display: flex;
+                    align-items: center;
+                    &:hover {
+                        color: #1F6EA3;
+                        cursor: pointer;
+                        font-weight: bolder;
+                    }
+                    &:active {
+                        border-bottom: #1F6EA3 solid 2px;
+                    }
+                }
+            }
+        }
+
+        .containerDesktop {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 1rem 0;
+        }
+
+        .iconMenu {
+            @media (min-width: 768px) {
+                display: none;
+            }
+        }
+    }
+    
     .menu {
         margin-bottom: 37px;
 
