@@ -1,13 +1,5 @@
 .nav {
     position: relative;
-    
-    // li {
-    //     &:hover {
-    //         color: #1F6EA3;
-    //         cursor: pointer;
-    //         font-weight: bolder;
-    //     }
-    // }
 
     .navMobile {
         background-color: #458FF6;
@@ -40,14 +32,6 @@
                     display: flex;
                     align-items: center;
                     color: #1F1534;
-                    // &:hover {
-                    //     color: #1F6EA3;
-                    //     cursor: pointer;
-                    //     font-weight: bolder;
-                    // }
-                    // &:active {
-                    //     border-bottom: #1F6EA3 solid 2px;
-                    // }
                 }
             }
         }
