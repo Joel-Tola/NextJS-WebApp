@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import styles from './Nav.module.scss';
 import Image from 'next/image';
+import { MenuItem } from '../MenuItem';
 
 export type NavProps = {
 	title: string;
@@ -23,10 +24,10 @@ const Nav: React.FC<NavProps> = ({ }) => {
 				<div className={styles.containerMobile}>
 					<div className={styles.menu}>
 						<ul>
-							<li>Home</li>
-							<li>Find a doctor</li>
-							<li>Apps</li>
-							<li>Testimonials</li>
+							<MenuItem content='Home'></MenuItem>
+							<MenuItem content='Find a doctor'></MenuItem>
+							<MenuItem content='Apps'></MenuItem>
+							<MenuItem content='Testimonials'></MenuItem>
 						</ul>
 					</div>
 					<div className={styles.contact}>
@@ -78,11 +79,10 @@ const Nav: React.FC<NavProps> = ({ }) => {
 					<Image src="logo.svg" alt="Logo" width={160} height={41} />
 					<div className={`${styles.menuDesktop}`}>
 						<ul>
-							<li>Home</li>
-							<li>Find a doctor</li>
-							<li>Apps</li>
-							<li>Testimonials</li>
-							<li>Contact us</li>
+							<MenuItem content='Home'></MenuItem>
+							<MenuItem content='Find a doctor'></MenuItem>
+							<MenuItem content='Apps'></MenuItem>
+							<MenuItem content='Testimonials'></MenuItem>
 						</ul>
 					</div>
 					<span className={`${styles.icon} icon-menu ${styles.iconMenu}`} onClick={toggleMenu}></span>

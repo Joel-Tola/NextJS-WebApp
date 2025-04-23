@@ -1,0 +1,12 @@
+.menuitem {
+}
+
+.active {
+  color: #1f6ea3;
+
+  @media (min-width: 768px) {
+    color: #1F1534;
+    border-bottom: #1F6EA3 solid 2px;
+    font-weight: bolder;
+  }
+}

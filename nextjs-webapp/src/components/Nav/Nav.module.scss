@@ -1,13 +1,13 @@
 .nav {
     position: relative;
     
-    li {
-        &:hover {
-            color: #1F6EA3;
-            cursor: pointer;
-            font-weight: bolder;
-        }
-    }
+    // li {
+    //     &:hover {
+    //         color: #1F6EA3;
+    //         cursor: pointer;
+    //         font-weight: bolder;
+    //     }
+    // }
 
     .navMobile {
         background-color: #458FF6;
@@ -32,21 +32,22 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    gap: 2.5rem;
+                    gap: 1.5rem;
                 }
 
                 li {
                     height: 41px;
                     display: flex;
                     align-items: center;
-                    &:hover {
-                        color: #1F6EA3;
-                        cursor: pointer;
-                        font-weight: bolder;
-                    }
-                    &:active {
-                        border-bottom: #1F6EA3 solid 2px;
-                    }
+                    color: #1F1534;
+                    // &:hover {
+                    //     color: #1F6EA3;
+                    //     cursor: pointer;
+                    //     font-weight: bolder;
+                    // }
+                    // &:active {
+                    //     border-bottom: #1F6EA3 solid 2px;
+                    // }
                 }
             }
         }
@@ -123,8 +124,8 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 1rem;
-        right: 1rem;
+        top: 1.5rem;
+        right: 0.8rem;
         &:before {
             font-size: 1rem;
             color: #1F1534;
