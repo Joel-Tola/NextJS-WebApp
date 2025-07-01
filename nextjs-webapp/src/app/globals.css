@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --color-test: oklch(0.52 0.1116 243.33);
+}
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?6phqhl');

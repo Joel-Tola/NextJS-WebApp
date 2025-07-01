@@ -1,12 +1,14 @@
+@reference "tailwindcss";
+
 .menuitem {
 }
 
 .active {
-  color: #1f6ea3;
+    // @apply text-lg font-bold test-black;
 
   @media (min-width: 768px) {
-    color: #1F1534;
-    border-bottom: #1F6EA3 solid 2px;
+    @apply text-test;
+    // @apply border-b-[2px] border-blue-100;
     font-weight: bolder;
   }
 }
